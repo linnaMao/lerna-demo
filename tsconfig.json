@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "packages": ["src"],
+      "packages/*": ["src/*", "*"],
+      "@pro-lz/button": ["./packages/button/src/index.tsx"],
+      "@pro-lz/tag": ["./packages/tag/src/index.tsx"]
+    }
+  },
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
+}

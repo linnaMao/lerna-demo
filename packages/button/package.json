@@ -1,0 +1,21 @@
+{
+  "name": "@pro-lz/button",
+  "version": "0.0.0",
+  "description": "button demo",
+  "author": "maolizi <lizhen.mao@mijahealth.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "build": "father build"
+  }
+}
