@@ -1,5 +1,5 @@
 const Configuration = {
-  extends: ['lerna', '@commitlint/config-conventional'],
+  extends: ['@commitlint/config-conventional'],
   ignores: [(commit) => commit === ''],
 };
 
